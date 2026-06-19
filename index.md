@@ -1,33 +1,151 @@
-# 隐私权政策 (Privacy Policy)
+---
+title: BooklyMY Privacy Policy
+---
 
-**生效日期：2026年4月24日**
+# Privacy Policy — Bookly MY
 
-感谢您选择使用 **Bookly**（以下简称“本应用”）。本隐私政策旨在向您说明我们如何收集、使用、存储及保护您的个人信息，以符合 Google Play 的数据安全要求。
+**Effective date:** 19 June 2026
+**App:** Bookly MY (Malaysia Business Accounting)
+**Developer / Data controller:** BooklyMY
+**Contact:** bookly.malaysia@gmail.com
 
-## 1. 我们收集的信息
-为了提供核心功能，本应用会收集以下类型的数据：
-* **个人信息：** 当您使用 Google 账号登录时，我们会收集您的 **姓名 (Name)**、**电子邮件地址 (Email address)** 及 **用户 ID (User ID)**，用于创建和管理您的账户。
-* **财务信息：** 本应用会收集您手动录入的 **收支账目、金额及分类** 等财务数据，用于为您生成报表。
-* **设备与性能数据：** 我们会收集 **设备 ID** 及 **崩溃日志**，用于应用性能分析和错误修复。
+This Privacy Policy explains what information Bookly MY ("the app", "we") collects,
+how we use it, and who we share it with. By using the app you agree to this policy.
 
-## 2. 数据的使用方式
-* **应用功能：** 收集的数据仅用于为您提供记账、统计、账号登录及数据备份服务。
-* **安全性：** 所有数据在传输过程中均经过加密处理。
-* **非临时处理：** 您的数据将被存储在我们的安全数据库中，除非您主动删除。
+---
 
-## 3. 数据的共享与披露
-我们 **不会** 将您的个人信息或财务数据分享给任何第三方机构。您的隐私对我们至关重要。
+## 1. Information we collect
 
-## 4. 账号与数据删除
-我们尊重您对数据的控制权：
-* **删除方式：** 您可以随时在应用设置中申请注销账号。
-* **人工申请：** 您也可以通过下方提供的电子邮箱联系我们，我们将在收到请求后的 7 个工作日内为您彻底删除账号及所有关联数据。
+We only collect what is needed to provide the app's features.
 
-## 5. 权限说明
-* **存储权限：** 用于导出报表或保存备份。
-* **网络权限：** 用于 Google 登录及同步您的账目数据。
+**a) Account information**
+- When you sign in with Google, we receive your name, email address and a Google
+  account identifier, and create a user account for you.
+- You can use most of the app offline without an account; cloud sync requires sign-in.
 
-## 6. 联系我们
-如果您对本政策有任何疑问，请联系我们：
-* **开发者：** [CHUNG CHEN TZE]
-* **电子邮箱：** [chentze961031@gmail.com]
+**b) Business and financial data you enter**
+- Transactions, income/expenses, invoices, quotations, delivery orders, credit
+  notes, purchase orders, inventory, payroll, budgets and your company profile.
+
+**c) Personal data of your own customers / employees that you enter**
+- Names, identification numbers (e.g. NRIC/IC), Tax Identification Numbers (TIN),
+  business registration numbers, addresses, phone numbers, emails and bank details.
+- You are responsible for having a lawful basis to enter this data; we process it
+  on your behalf solely to provide the app.
+
+**d) Subscription / purchase information**
+- Your Pro subscription status and purchase history (via RevenueCat and Google
+  Play Billing). We do **not** collect or store your card or bank-card numbers —
+  payments are handled by Google Play.
+
+**e) Photos and files you choose**
+- Company logo, authorised signature, and any bank statement or document you
+  explicitly pick (e.g. for AI-assisted bank-statement import).
+
+**f) Camera**
+- Used only when you scan a barcode/QR code. Scans are processed on-device and not
+  stored as images.
+
+**g) Device and advertising identifiers**
+- If ads are shown to free-tier users, Google AdMob may use a device advertising
+  identifier. Pro users see no ads.
+
+**h) Diagnostics**
+- Minimal crash/diagnostic information to keep the app stable.
+
+---
+
+## 2. How we use your information
+
+- To provide and operate the app's accounting, invoicing and inventory features.
+- To sync your data across your devices (when signed in).
+- To manage your subscription and unlock Pro features.
+- To submit e-Invoices to LHDN MyInvois **at your instruction** (see section 4).
+- To show ads to free-tier users (if enabled) and to provide support.
+
+We do **not** sell your personal data.
+
+---
+
+## 3. AI-assisted features (Google Gemini)
+
+Some optional features (e.g. bank-statement import / AI assistant) send the content
+you provide to **Google's Gemini API** to extract or summarise data. Only the
+content you choose to process is sent. Do not use these features for data you are
+not permitted to share.
+
+---
+
+## 4. e-Invoice (LHDN MyInvois)
+
+If you use the MyInvois feature:
+- The invoice data you choose to submit is sent to **LHDN's MyInvois system** via a
+  secure server function, **only when you tap submit**.
+- Your MyInvois API credentials are stored encrypted in our backend and are
+  accessible only to your own account (row-level security); they are never exposed
+  to other users.
+- Your **digital-signing certificate and private key stay only on your device** in
+  the operating system's encrypted secure storage. They are **never uploaded** to
+  our servers or anyone else. Only the public certificate is embedded in the
+  signed e-Invoice, as required by LHDN.
+
+---
+
+## 5. Third-party services
+
+We use the following processors. Each has its own privacy policy:
+
+| Service | Purpose | Policy |
+|---|---|---|
+| Supabase | Cloud database / authentication / storage | https://supabase.com/privacy |
+| Google Sign-In & Firebase | Sign-in, app infrastructure | https://policies.google.com/privacy |
+| Google AdMob | Ads (free tier only) | https://policies.google.com/privacy |
+| Google Gemini API | Optional AI features | https://policies.google.com/privacy |
+| RevenueCat | Subscription management | https://www.revenuecat.com/privacy |
+| LHDN MyInvois | e-Invoice submission (your instruction) | https://www.hasil.gov.my |
+
+---
+
+## 6. Storage, security and location
+
+- Cloud data is stored with Supabase (region: Asia-Pacific, Singapore).
+- Data in transit is encrypted (HTTPS/TLS).
+- Access to your cloud data is restricted to your own account via row-level
+  security. Your signing private key never leaves your device.
+
+---
+
+## 7. Data retention and deletion
+
+- We keep your data for as long as your account exists.
+- You may delete individual records in the app at any time.
+- To delete your account and associated cloud data, contact us at the email above;
+  we will delete it within a reasonable period, except where law requires retention.
+
+---
+
+## 8. Children
+
+Bookly MY is a business tool and is not directed to children under 16. We do not
+knowingly collect data from children.
+
+---
+
+## 9. Your rights
+
+Subject to applicable Malaysian law (PDPA 2010), you may request access to,
+correction of, or deletion of your personal data by contacting us.
+
+---
+
+## 10. Changes to this policy
+
+We may update this policy from time to time. Material changes will be notified in
+the app or on this page, with an updated effective date.
+
+---
+
+## 11. Contact
+
+BooklyMY
+Email: bookly.malaysia@gmail.com
